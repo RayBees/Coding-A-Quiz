@@ -1,0 +1,45 @@
+#start{
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content:center ;
+    border: 3px black solid;
+    color: aliceblue;
+    /* margin-left: 900px;
+    margin-right: 900px; */
+    Padding: 50px 0 50px 0;
+    Margin: 20px 1000px 0 1000px;
+    
+}
+#quiz{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#qText {
+    font-size: 20px;
+    font-weight: bold;
+}
+#choices{
+    
+
+}
+.choice{
+    background-color: teal;
+    border: 3px yellowgreen solid;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+#scoreContainer {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+#startOver{
+    background-color: aqua;
+    display: none;
+}
